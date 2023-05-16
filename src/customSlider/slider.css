@@ -1,0 +1,16 @@
+.slider .slick-dots{
+    bottom: -60px;
+}
+.slider .slick-dots .slick-active a{
+    background-color: #3E3E3E;
+}
+
+.user-slider .slick-dots{
+    bottom: -60px;
+}
+.user-slider .slick-dots .slick-active a{
+    background-color: #3E3E3E;
+}
+.slick-prev:before, .slick-next:before{
+    display: none;
+}

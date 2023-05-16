@@ -1,0 +1,56 @@
+.slider .slick-list{
+    overflow: visible;
+}
+
+.info{
+    transition: .5s;
+}
+.user:hover .info {
+    bottom: 0;
+}
+
+.box-item-relative:hover .box-item-absolute{
+    transform: scale(1);
+    opacity: 1;
+    cursor: pointer;
+}
+.box-item-absolute{
+    transform: scale(0);
+    opacity: 0;
+    transition: .5s;
+}
+
+.partner{
+    transition: .5s;
+}
+
+.partner:hover{
+    background-color: #49BDA8;
+    cursor: pointer;
+    border: 1px solid #49BDA8;
+}
+.partner:hover .partner-img{
+    filter: brightness(5);
+}
+.partner:hover .partner-name{
+    color: white;
+
+}
+
+.header__menu-link{
+    text-align: center;
+    display: inline-block;
+}
+
+.header__menu-link:hover{
+    font-weight: bold;
+}
+
+.header__menu-link::before{
+    content: attr(title);
+    font-weight: bold;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
